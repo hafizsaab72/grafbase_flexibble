@@ -32,7 +32,7 @@ export const reValidate = 0;
 const Home = async ({ searchParams: { category, endCursor } }: Props) => {
   const data = (await fetchAllProjects(category, endCursor)) as ProjectsSearch;
 
-  const projectsToDisplay = data?.projectSearch?.edges || [];
+  const projectsToDisplay = data?.projectSearch?.edges || []; 
 
   if (projectsToDisplay.length === 0) {
     return (
