@@ -6,10 +6,13 @@ First, run the development server:
 
 ```bash
 npm run dev
+npx grafbase@0.24 dev
 # or
 yarn dev
+npx grafbase@0.24 dev
 # or
 pnpm dev
+npx grafbase@0.24 dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
